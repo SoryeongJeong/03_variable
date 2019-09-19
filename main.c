@@ -4,7 +4,18 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
+	int x;
+	short y;
+	float z;
+	double k;
+
+	printf("bytes of int : %d\n", sizeof(x));
+	printf("bytes of int : %d\n", sizeof(y));
+	printf("bytes of int : %d\n", sizeof(z));
+	printf("bytes of int : %d\n", sizeof(k));
+
 	
-	printf("Hello Sookmyung EE!\n");
+	
+	
 	return 0;
 }
