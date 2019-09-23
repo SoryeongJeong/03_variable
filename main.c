@@ -3,19 +3,21 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) {
+int main(void)
+{ 	int x;
+	printf("bytes of int : %d\n", sizeof(x));
 	
-	int input_int;
-	float input_float;
+	char y;
+	printf("bytes of char : %d\n", sizeof(y));
 	
-	printf("enter an integer : ");
-	scanf("%d", &input_int);
+	short z;
+	printf("bytes of short : %d\n", sizeof(z));
 	
-	printf("enter a float : ");
-	scanf("%f", &input_float);
+	float k;
+	printf("bytes of float : %d\n", sizeof(k));
 	
-	printf("integer : %d, float : %f\n", input_int, input_float);
-	
+	double w;
+	printf("bytes of double : %d\n", sizeof(w));
 	
 	return 0;
 }
